@@ -25,6 +25,9 @@ export default function Home() {
   <link rel='stylesheet' href='https://assets.codepen.io/7773162/swiper-bundle.min.css' />
 <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css '/>
      
+  <Script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.2/swiper-bundle.min.js'> />
+<Script src='https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js' />
+<Script  src="./script.js"/>
 
  </Head>
 
@@ -558,9 +561,6 @@ export default function Home() {
   </a>
 
  
-  <Script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.2/swiper-bundle.min.js'> />
-<Script src='https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js' />
-<Script  src="./script.js"/>
 </>
 
 
