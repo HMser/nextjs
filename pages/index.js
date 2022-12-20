@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Script from 'next/script'
+import Link from 'next/link'
 import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
 
@@ -22,7 +24,12 @@ export default function Home() {
   <title>StatusArea</title>
   <link rel='stylesheet' href='https://assets.codepen.io/7773162/swiper-bundle.min.css' />
 <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css '/>
-      </Head>
+     
+  <Script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.2/swiper-bundle.min.js'> />
+<Script src='https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js' />
+<Script  src="./script.js" />
+
+ </Head>
 
       <>
   {/* partial:index.partial.html */}
