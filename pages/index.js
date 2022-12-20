@@ -561,7 +561,7 @@ export default function Home() {
   <Script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.2/swiper-bundle.min.js'> />
 <Script src='https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js' />
 <Script  src="./script.js"/>
-</>
+
 
 
     </>
