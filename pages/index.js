@@ -557,9 +557,9 @@ export default function Home() {
     <i className="bx bx-up-arrow-alt scrollup__icon" />
   </a>
  
-  <Script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.2/swiper-bundle.min.js'> />
-<Script src='https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js' />
-<Script  src="./script.js" />
+  <Script> src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.2/swiper-bundle.min.js'> <Script />
+<Script> src='https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js' <Script />
+<Script>  src="./script.js" <Script />
 </>
 
 
