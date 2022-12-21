@@ -477,15 +477,12 @@ export default function Home() {
   </a>
 
 <footer>
-  <div class="inside__footer">
-    <p class="copyright">
-    Design By  <a href="https://www.hmser.ml/"> HM </a>
-    <br>
-      &copy; <Script strategy="lazyOnload"
-        document.write(new Date().getFullYear());
-      ></Script> StatusArea, All Rights Reserved.
-   <br> </p>
-    </div>
+  <div className="inside__footer">
+    <p className="copyright">
+      Design By  <a href="https://www.hmser.ml/"> HM </a>
+      <br />
+      © <Script strategy="lazyOnload" document.write(new date().getfullyear());> </Script> StatusArea, All Rights Reserved.
+      <br /> </p>
   </div>
 </footer>
  
