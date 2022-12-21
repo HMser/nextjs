@@ -128,7 +128,7 @@ export default function Home() {
               </div>
             </div>
           </section>
-          {/* HOME SLIDER 2 
+          {/* HOME SLIDER 2 */}
           <section className="swiper-slide">
             <div className="home__content grid">
               <div className="home__group">
@@ -170,7 +170,7 @@ export default function Home() {
               </div>
             </div>
           </section>
-          {/* HOME SLIDER 3 
+          {/* HOME SLIDER 3 */}
           <section className="swiper-slide">
             <div className="home__content grid">
               <div className="home__group">
@@ -213,7 +213,6 @@ export default function Home() {
                 </div>
               </div>
             </div>
-*/}
           </section>
         </div>
 
