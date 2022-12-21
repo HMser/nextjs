@@ -1,3 +1,4 @@
+
 import Head from 'next/head'
 import Image from 'next/image'
 import Script from 'next/script'
@@ -83,8 +84,8 @@ export default function Home() {
   <main className="main">
     {/* HOME */}
     <section className="home container" id="home">
-      <div className="swiper home-swiper">
-        <div className="swiper-wrapper">
+     {/* <div className="swiper home-swiper">
+        <div className="swiper-wrapper"> */}
           {/* HOME SLIDER 1 */}
           <section className="swiper-slide">
             <div className="home__content grid">
@@ -127,7 +128,7 @@ export default function Home() {
               </div>
             </div>
           </section>
-          {/* HOME SLIDER 2 */}
+          {/* HOME SLIDER 2 
           <section className="swiper-slide">
             <div className="home__content grid">
               <div className="home__group">
@@ -169,7 +170,7 @@ export default function Home() {
               </div>
             </div>
           </section>
-          {/* HOME SLIDER 3 */}
+          {/* HOME SLIDER 3 
           <section className="swiper-slide">
             <div className="home__content grid">
               <div className="home__group">
@@ -213,6 +214,7 @@ export default function Home() {
               </div>
             </div>
           </section>
+*/}
         </div>
         <div className="swiper-pagination" />
       </div>
