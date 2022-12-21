@@ -84,7 +84,8 @@ export default function Home() {
   <main className="main">
     {/* HOME */}
     <section className="home container" id="home">
-     
+     <div className="swiper home-siper">
+        <div className="swiper-wapper">
         
           {/* HOME SLIDER 1 */}
           <section className="swiper-slide">
