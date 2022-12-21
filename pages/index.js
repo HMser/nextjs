@@ -84,8 +84,8 @@ export default function Home() {
   <main className="main">
     {/* HOME */}
     <section className="home container" id="home">
-      <div className="swiper home-swiper">
-        <div className="swiper-wrapper">
+     
+        
           {/* HOME SLIDER 1 */}
           <section className="swiper-slide">
             <div className="home__content grid">
