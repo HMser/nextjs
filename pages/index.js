@@ -82,110 +82,85 @@ export default function Home() {
   </header>
   <main className="main">
     {/* HOME */}
-    <section className="home container" id="home">
-      <div className="swiper home-swiper">
-        <div className="swiper-wrapper">
-          {/* HOME SLIDER 1 */}
-          <section className="swiper-slide">
-            <div className="home__content grid">
-              <div className="home__group">
-                <img
-                  src="https://assets.codepen.io/7773162/home3-img.png"
-                  alt=""
-                  className="home__img"
-                />
-                <div className="home__indicator" />
-                <div className="home__details-img">
-                  <h4 className="home__details-title">Captain Sem</h4>
-                  <span className="home__details-subtitle">
-                    Veteran Spooky Ghost
-                  </span>
-                </div>
-              </div>
-              <div className="home__data">
-                <h3 className="home__subtitle">#1 Top Scariest Ghost</h3>
-                <h1 className="home__title">
-                  RESPAWN <br /> THE SPOOKY <br /> SKULL{" "}
-                </h1>
-                <p className="home__description">
-                  In search for cute little puppy, Captain Sem has come back
-                  from his tragic death. With his hogwarts certified power he
-                  promise to be a hero for all of ghostkind.{" "}
-                </p>
-                <div className="home__buttons">
-                  <a href="#" className="book--now">
-                    <img
-                      src="https://assets.codepen.io/7773162/svgviewer-output+%281%29_3.svg"
-                      alt=""
-                    />
-                  </a>
-                  <a href="#" className="button--link button--flex">
-                    Track Record{" "}
-                    <i className="bx bx-right-arrow-alt button__icon" />
-                  </a>
-                </div>
-              </div>
-            </div>
-          </section>
-          {/* HOME SLIDER 2 */}
-          <section className="swiper-slide">
-            <div className="home__content grid">
-              <div className="home__group">
-                <img
-                  src="https://assets.codepen.io/7773162/home2-img.png"
-                  alt=""
-                  className="home__img"
-                />
-                <div className="home__indicator" />
-                <div className="home__details-img">
-                  <h4 className="home__details-title">Adino &amp; Grahami</h4>
-                  <span className="home__details-subtitle">
-                    No words can describe them
-                  </span>
-                </div>
-              </div>
-              <div className="home__data">
-                <h3 className="home__subtitle">#2 top Best duo</h3>
-                <h1 className="home__title">
-                  BRING BACK <br /> MY COTTON <br /> CANDY{" "}
-                </h1>
-                <p className="home__description">
-                  Adino steals cotton candy from his brother and eats them all
-                  in one bite, a hungry beast. Grahami can no longer contain his
-                  anger towards Adino.{" "}
-                </p>
-                <div className="home__buttons">
-                  <a href="#" className="book--now">
-                    <img
-                      src="https://assets.codepen.io/7773162/svgviewer-output+%281%29_3.svg"
-                      alt=""
-                    />
-                  </a>
-                  <a href="#" className="button--link button--flex">
-                    Track Record{" "}
-                    <i className="bx bx-right-arrow-alt button__icon" />
-                  </a>
-                </div>
-              </div>
-            </div>
-          </section>
-          {/* HOME SLIDER 3 */}
-          <section className="swiper-slide">
-            <div className="home__content grid">
-              <div className="home__group">
-                <img
-                  src="https://assets.codepen.io/7773162/home1-img.png"
-                  alt=""
-                  className="home__img"
-                />
-                <div className="home__indicator" />
-                <div className="home__details-img">
-                  <h4 className="home__details-title">The Labu “Reiza”</h4>
-                  <span className="home__details-subtitle">
-                    The Living Pumpkin
-                  </span>
-                </div>
-              </div>
+   <section className="home container" id="home">
+  {/* <div class="swiper home-swiper">
+<div class="swiper-wrapper">
+  <!-- HOME SLIDER 1 */}
+  <section className="swiper-slide">
+    <div className="home__content grid">
+      <div className="home__group">
+        <img
+          src="https://assets.codepen.io/7773162/home3-img.png"
+          alt=""
+          className="home__img"
+        />
+        <div className="home__indicator" />
+        <div className="home__details-img">
+          {/*    <h4 class="home__details-title">Captain Sem</h4>
+          <span class="home__details-subtitle">Veteran Spooky Ghost</span>*/}
+        </div>
+      </div>
+      <div className="home__data">
+        <h3 className="home__subtitle">#1 Top Website Is coming</h3>
+        <h1 className="home__title">
+          This <br /> website
+          <br /> under work{" "}
+        </h1>
+        <p className="home__description">
+          yehjwbwjwvwjebjeheihwi3gurheuwhwhuwveiebsjdbjebsjwvwjwvwjbejebeiwviwvrkfoosowhwkrbdkwhwjvdiehwkevwjvwuwveh
+        </p>
+        <div className="home__buttons">
+          <a href="#" className="book--now">
+            <img
+              src="https://assets.codepen.io/7773162/svgviewer-output+%281%29_3.svg"
+              alt=""
+            />
+          </a>
+          <a href="#" className="button--link button--flex">
+            Track Record <i className="bx bx-right-arrow-alt button__icon" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  {/* HOME SLIDER 2 --
+  <section class="swiper-slide">
+    <div class="home__content grid">
+      <div class="home__group">
+        <img src="https://assets.codepen.io/7773162/home2-img.png" alt="" class="home__img">
+        <div class="home__indicator"></div>
+        <div class="home__details-img">
+          <h4 class="home__details-title">Adino & Grahami</h4>
+          <span class="home__details-subtitle">No words can describe them</span>
+        </div>
+      </div>
+      <div class="home__data">
+        <h3 class="home__subtitle">#2 top Best duo</h3>
+        <h1 class="home__title">BRING BACK <br> MY COTTON <br> CANDY </h1>
+        <p class="home__description">Adino steals cotton candy from his brother and eats them all in one bite, a hungry beast. Grahami can no longer contain his anger towards Adino. </p>
+        <div class="home__buttons">
+          <a href="#" class="book--now">
+            <img src="https://assets.codepen.io/7773162/svgviewer-output+%281%29_3.svg" alt="" />
+          </a>
+          <a href="#" class="button--link button--flex">Track Record <i class='bx bx-right-arrow-alt button__icon'></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+      */}
+  {/* HOME SLIDER 3 
+  <section class="swiper-slide">
+    <div class="home__content grid">
+      <div class="home__group">
+        <img src="https://assets.codepen.io/7773162/home1-img.png" alt="" class="home__img">
+        <div class="home__indicator"></div>
+        <div class="home__details-img">
+          <h4 class="home__details-title">The Labu “Reiza”</h4>
+          <span class="home__details-subtitle">The Living Pumpkin</span>        */}
+</section>
+</div>
+    </div>
               <div className="home__data">
                 <h3 className="pumpkin__subtitle">
                   #3 Top Scariest Ghost 2020
