@@ -214,8 +214,8 @@ export default function Home() {
               </div>
             </div>
           </section>
-*/}
         </div>
+*/}
         <div className="swiper-pagination" />
       </div>
     </section>
