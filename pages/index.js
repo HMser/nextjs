@@ -28,9 +28,9 @@ export default function Home() {
 
  </Head>
 
-  <Script strategy="lazyOnload" onLoad={onLoadFunc} src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.2/swiper-bundle.min.js'></Script>
-<Script strategy="lazyOnload" onLoad={onLoadFunc} src='https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js'></Script>
-<Script strategy="lazyOnload" onLoad={onLoadFunc} src="./script.js"></Script>
+  <Script strategy="lazyOnload" src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.2/swiper-bundle.min.js'></Script>
+<Script strategy="lazyOnload" src='https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js'></Script>
+<Script strategy="lazyOnload" src="./script.js"></Script>
       <>
   {/* partial:index.partial.html */}
   {/* HEADER */}
